@@ -1,0 +1,47 @@
+body { font-family: 'Poppins', sans-serif; }
+h1,.display-1{ font-weight:400; } h2,.display-2{ font-weight:500; } h3,.display-3{ font-weight:300; }
+h4,h5,h6,p,.display-4,.display-5,.display-6{ font-weight:100; }
+.navbar{ background-image: linear-gradient(to right,#0099ff,#6f00ff); font-weight:900; font-size:3rem; }
+.navbar-brand{ font-weight:500; font-size:3rem; font-stretch:1.5rem; line-height:1.5rem; }
+.search{ background-image: linear-gradient(to right,#ffaf03,#ffff03); margin-left: auto; margin-right: 5%; border-radius: 20px; }
+.content{ background-color: #f5f50a; border-radius: 15px; padding: 10px; }
+#contentModal .modal-body{ background-image: url("../images/cardinput.svg"); background-size: cover; width: 100%;  height: 100%; }
+#welcomehome{ background-image: url("../images/machine.jfif"); display: table; background-size: cover; width: 100%;  height: 100%; position: relative;color: white; } 
+#welcomehome h1{ animation-duration:2s; } #welcomehome h5{ animation-duration:3s; } #welcomehome p{ animation-duration:3s; }
+#booksection{ background-image: url("../images/cardinput.svg"); background-size: cover; width: 100%;  height: 100%; }
+#contentsection{ text-align: justify; text-justify: inter-word; }
+#contentsection .asking{ background-image: linear-gradient(to bottom right,#f0fc12,#93fc12); border-top-right-radius: 20px;border-bottom-left-radius: 20px; }
+#contentsection .designdone{ background-image: url("../images/cardinput.svg"); background-size: cover; width: 100%;  height: 100%; border-radius: 20px; }  table{ border-radius: 20px; font-size: 1rem; }  thead tr{ background-color:#07eda0; }
+.contentheader{ padding: 15px; background-image: url("../images/contentheader.svg"); background-size: cover; width: 100%;  height: 100%; border-radius: 20px; }
+img{ width: 500px; height: 300px; } .chart{ background-color:#243635; width: 50%; margin-left: auto; margin-right: auto; } .form-check-input{ height: 2rem; width: 2rem; } .note{ color: #5e5e5e; }
+.place_content{ background-image: linear-gradient(to right bottom,#05fcaa,#05befc); border-radius: 15px; padding: 10px; }
+.slider { -webkit-appearance: none;   appearance: none; width: 100%;  height: 5px;  background: #f5e6b8;  outline: none;  opacity: 1; }
+.slider:hover { opacity: 1;  }
+.slider::-webkit-slider-thumb { -webkit-appearance: none;  appearance: none; border-radius: 10px; width: 25px;  height: 25px;  background: #edd221;  cursor: pointer; }
+.design_content{ border-color:#b8ff05; border-radius:20px; padding:10px; border-width: 5px; }
+#footer{ font-family: 'Quicksand', sans-serif; background-color: black;position: relative;clear: both;color: white; margin-top: 100px; }
+@media only screen and (max-width:1078px){ h1,.display-1,h2,.display-2{ font-size:1.8rem; } h3,.display-3{ font-size:1rem; } 
+    h4,h5,h6,.display-4,.display-5,.display-6{ font-size:1.1rem; } p{ font-size: 0.8rem; }
+    .navbar-brand{ font-weight:500; font-size:2rem; font-stretch:1.5rem; line-height:1.5rem; }
+    input[type="number"]{ font-size: 0.9rem; } input[type="text"]{ font-size: 0.9rem; }
+}
+@media only screen and (max-width:750px){ .chart{ background-color:#243635; width: 100%; } }
+@media only screen and (max-width:500px){ h1,.display-1,h2,.display-2{ font-size:1.3rem; } h3,.display-3{ font-size:0.9rem; } 
+    h4,h5,h6,.display-4,.display-5,.display-6{ font-size:0.9rem; } p{ font-size: 0.8rem; }
+    .navbar-brand{ font-weight:500; font-size:1.5rem; font-stretch:1.2rem; line-height:1.4rem; }
+    .chart{ background-color:#243635; width: 100%; }
+    table{ border-radius: 15px; font-size: 0.8rem; }
+    input[type="number"]{ font-size: 0.8rem; } input[type="text"]{ font-size: 0.8rem; }
+}
+@media only screen and (max-width:350px){ h1,.display-1,h2,.display-2{ font-size:1.2rem; } h3,.display-3{ font-size:0.8rem; } 
+    h4,h5,h6,.display-4,.display-5,.display-6{ font-size:0.7rem; } p{ font-size: 0.6rem; }
+    .navbar-brand{ font-weight:500; font-size:1.1rem; font-stretch:1rem; line-height:1.3rem; } .content{ font-size: 0.8rem; }
+    table{ border-radius: 10px; font-size: 0.7rem; }
+    input[type="number"]{ font-size: 0.7rem; } input[type="text"]{ font-size: 0.7rem; }
+}
+@media only screen and (max-width:300px){ h1,.display-1,h2,.display-2{ font-size:1rem; } h3,.display-3{ font-size:0.7rem; } 
+    h4,h5,h6,.display-4,.display-5,.display-6{ font-size:0.6rem; } p{ font-size: 0.5rem; }
+    .navbar-brand{ font-weight:400; font-size:1rem; font-stretch:1rem; line-height:1.1rem; }
+    .search{ font-size: 0.7rem;background-color: #27e36f; margin-left: auto; margin-right: 5%; border-radius: 20px;box-shadow: 0px 0px 3px 3px #bfe3da; } .content{ font-size: 0.6rem; }
+    input[type="number"]{ font-size: 0.6rem; } input[type="text"]{ font-size: 0.6rem; }
+}

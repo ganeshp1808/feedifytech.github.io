@@ -1,0 +1,18 @@
+body { font-family: 'Poppins', sans-serif; }
+h1,.display-1{ font-weight:400; } h2,.display-2{ font-weight:500; } h3,.display-3{ font-weight:300; }
+h4,h5,h6,p,.display-4,.display-5,.display-6{ font-weight:100; }
+.navbar{ background-image: linear-gradient(to right,#0099ff,#6f00ff); font-weight:900; font-size:3rem; }
+.navbar-brand{ font-weight:500; font-size:3rem; font-stretch:1.5rem; line-height:1.5rem; }
+#welcomehome{ background-image: url("../images/welcome.png"); display: table; background-size: cover; width: 100%;  height: 100%; position: relative; }
+#welcomehome h1{ animation-duration:2s; } #welcomehome h4{ animation-duration:3s; } #welcomehome p{ animation-duration:3s; }
+.subject-content{ background-image: linear-gradient(to right,#d9ff00,#62ff00);padding: 1rem; }
+#secondsection .intromsg{ background-color:#42f587; }   #secondsection .intromsg .blockquote-footer{ color: #142c30; }
+#thirdsection { background-color: #282f36;color: #e6ecf2; }
+#contactsection{ background-color: #0384fc; }
+.formulate{ border-radius: 30px; background-color: #facd05;text-align: center; } .note{ color: #fadcd4; } .finalnote{ line-height: 45px; }
+.modal-body{ background-color: #fffae6; } .subjects{ background-image: linear-gradient(to bottom,#0af299,#0afaf6); }
+#footer{ font-family: 'Quicksand', sans-serif; background-color: black;position: relative;clear: both;color: white; }
+@media only screen and (max-width:1078px){ h1,.display-1,h2,.display-2{ font-size:1.8rem; } h3,.display-3{ font-size:1rem; } 
+    h4,h5,h6,.display-4,.display-5,.display-6{ font-size:1.1rem; } p{ font-size: 0.8rem; }
+    .navbar-brand{ font-weight:500; font-size:2rem; font-stretch:1.5rem; line-height:1.5rem; }
+}
